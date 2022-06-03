@@ -9,10 +9,10 @@ import Actions from '../../Components/Actions';
 const list = [
     {
         id: 1,
-        label: 'Boleto conta de luz',
-        value: '380,90',
+        label: 'Pix BET',
+        value: '1000,00',
         date: '03/06/22',
-        type: 0 // despesas
+        type: 1 // despesas
     },
     {
         id: 2,
