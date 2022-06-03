@@ -9,7 +9,7 @@ import Actions from '../../Components/Actions';
 const list = [
     {
         id: 1,
-        label: 'Pix BET',
+        label: 'Pix',
         value: '1000,00',
         date: '03/06/22',
         type: 1 // despesas
@@ -27,6 +27,13 @@ const list = [
         value: '15000,00',
         date: '03/06/22',
         type: 1 // entradas
+    },
+    {
+      id: 4,
+      label: 'Ração dos Filhos',
+      value: '680,00',
+      date: '30/05/22',
+      type: 0
     }
 
 ]
@@ -34,7 +41,7 @@ const list = [
 export default function Home() {
  return (
    <View style={styles.container}>
-       <Header name="Samuel Teixeira" />
+       <Header name="Giulie Antunes" />
 
        <Balance saldo="9.250,50" gastos="-527,00"/>
 
